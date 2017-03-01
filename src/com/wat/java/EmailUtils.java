@@ -22,7 +22,7 @@ public class EmailUtils {
 		Properties properties = System.getProperties();
 		//连接协议
 		properties.put("mail.transport.protocol", "smtp");
-		//
+		//验证权限
 		properties.put("mail.smtp.auth", "true");
 		//qq是smtp.qq.com
 		properties.put("mail.smtp.host", "smtp.qq.com");
